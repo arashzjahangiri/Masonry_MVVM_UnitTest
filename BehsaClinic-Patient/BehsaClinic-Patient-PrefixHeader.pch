@@ -1,0 +1,35 @@
+//
+//  BehsaClinic-Patient-PrefixHeader.pch
+//  BehsaClinic-Patient
+//
+//  Created by Arash Z. Jahangiri on 2/11/17.
+//  Copyright © 2017 Arash Z. Jahangiri. All rights reserved.
+//
+
+#ifndef BehsaClinic_Patient_PrefixHeader_pch
+#define BehsaClinic_Patient_PrefixHeader_pch
+
+#import "NetworkApi.h"
+#import "Networking.h"
+
+#import <sys/socket.h>
+#import <netinet/in.h>
+
+#import "Database.h"
+
+#import <UIImageView+AFNetworking.h>
+#import "ProgressHUD.h"
+
+#import "ToastView.h"
+
+#import "BaseViewController.h"
+
+#import "Header.h"
+
+#define MAS_SHORTHAND
+#import "Masonry.h"
+
+#import "Common.h"
+
+#import "LoginViewController.h"
+#endif /* BehsaClinic_Patient_PrefixHeader_pch */

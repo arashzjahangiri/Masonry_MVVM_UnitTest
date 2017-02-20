@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		643F523B0EA7D600149364AE /* libPods-BehsaClinic-Patient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F71B8DDE7D43645FF988079 /* libPods-BehsaClinic-Patient.a */; };
+		984013D31E4F05E500AE3AB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 984013D21E4F05E500AE3AB7 /* main.m */; };
+		984013D61E4F05E500AE3AB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 984013D51E4F05E500AE3AB7 /* AppDelegate.m */; };
+		984013D91E4F05E500AE3AB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984013D81E4F05E500AE3AB7 /* ViewController.m */; };
+		984013DC1E4F05E600AE3AB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984013DA1E4F05E600AE3AB7 /* Main.storyboard */; };
+		984013DE1E4F05E600AE3AB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984013DD1E4F05E600AE3AB7 /* Assets.xcassets */; };
+		984013E11E4F05E600AE3AB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984013DF1E4F05E600AE3AB7 /* LaunchScreen.storyboard */; };
+		984013E91E4F066A00AE3AB7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 984013E81E4F066A00AE3AB7 /* Podfile */; };
+		984013F01E4F076000AE3AB7 /* yekan.otf in Resources */ = {isa = PBXBuildFile; fileRef = 984013EF1E4F076000AE3AB7 /* yekan.otf */; };
+		984013F41E4F082200AE3AB7 /* DocumentDirectoy.m in Sources */ = {isa = PBXBuildFile; fileRef = 984013F31E4F082200AE3AB7 /* DocumentDirectoy.m */; };
+		984013F91E4F084A00AE3AB7 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 984013F81E4F084A00AE3AB7 /* ProgressHUD.m */; };
+		984013FD1E4F086400AE3AB7 /* ImageResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 984013FC1E4F086400AE3AB7 /* ImageResizer.m */; };
+		984014011E4F0A1500AE3AB7 /* ShakeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 984014001E4F0A1500AE3AB7 /* ShakeAnimation.m */; };
+		984014051E4F0A4600AE3AB7 /* AttributedTextClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 984014041E4F0A4600AE3AB7 /* AttributedTextClass.m */; };
+		984014091E4F0A9400AE3AB7 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 984014081E4F0A9400AE3AB7 /* CustomButton.m */; };
+		9840140D1E4F1F4400AE3AB7 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 9840140C1E4F1F4400AE3AB7 /* Database.m */; };
+		984014111E4F1F5E00AE3AB7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 984014101E4F1F5E00AE3AB7 /* libsqlite3.tbd */; };
+		984014141E4F206700AE3AB7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984014131E4F206700AE3AB7 /* FirstViewController.m */; };
+		984014181E4F208500AE3AB7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984014171E4F208500AE3AB7 /* SecondViewController.m */; };
+		9840141C1E4F209A00AE3AB7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9840141B1E4F209A00AE3AB7 /* ThirdViewController.m */; };
+		984014211E4F20B800AE3AB7 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984014201E4F20B800AE3AB7 /* FourthViewController.m */; };
+		984014251E4F20CB00AE3AB7 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984014241E4F20CB00AE3AB7 /* FifthViewController.m */; };
+		984EC2321E507BE000E8CD93 /* SecondViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 984EC2311E507BE000E8CD93 /* SecondViewCell.m */; };
+		984EC2351E507C1B00E8CD93 /* SeconViewDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 984EC2341E507C1B00E8CD93 /* SeconViewDataEntity.m */; };
+		984EC2381E507D7900E8CD93 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 984EC2371E507D7900E8CD93 /* Common.m */; };
+		986649C91E52E74C007701F7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 986649C81E52E74C007701F7 /* LoginViewController.m */; };
+		986649D61E53185E007701F7 /* BehsaClinic_PatientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 986649D51E53185E007701F7 /* BehsaClinic_PatientUITests.m */; };
+		986649E41E535165007701F7 /* BehsaClinic_PatientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 986649E31E535165007701F7 /* BehsaClinic_PatientTests.m */; };
+		986649ED1E5352F2007701F7 /* SimpleAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 986649EC1E5352F2007701F7 /* SimpleAlgorithms.m */; };
+		986649EE1E5352F2007701F7 /* SimpleAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 986649EC1E5352F2007701F7 /* SimpleAlgorithms.m */; };
+		98DAFC181E4F35FB008D4298 /* NetworkStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DAFC151E4F35FB008D4298 /* NetworkStatusManager.m */; };
+		98DAFC191E4F35FB008D4298 /* Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DAFC161E4F35FB008D4298 /* Networking.m */; };
+		98DAFC1C1E4F3604008D4298 /* NetworkEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DAFC1B1E4F3604008D4298 /* NetworkEntity.m */; };
+		98DAFC231E4F476E008D4298 /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DAFC221E4F476E008D4298 /* ToastView.m */; };
+		98DAFC271E4F4AFD008D4298 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DAFC261E4F4AFD008D4298 /* BaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		986649D81E53185E007701F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 984013C61E4F05E500AE3AB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 984013CD1E4F05E500AE3AB7;
+			remoteInfo = "BehsaClinic-Patient";
+		};
+		986649E61E535165007701F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 984013C61E4F05E500AE3AB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 984013CD1E4F05E500AE3AB7;
+			remoteInfo = "BehsaClinic-Patient";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31945B44E8331BC950A72D93 /* Pods-BehsaClinic-Patient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BehsaClinic-Patient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BehsaClinic-Patient/Pods-BehsaClinic-Patient.debug.xcconfig"; sourceTree = "<group>"; };
+		8F71B8DDE7D43645FF988079 /* libPods-BehsaClinic-Patient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BehsaClinic-Patient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		984013CE1E4F05E500AE3AB7 /* BehsaClinic-Patient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BehsaClinic-Patient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		984013D21E4F05E500AE3AB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		984013D41E4F05E500AE3AB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		984013D51E4F05E500AE3AB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		984013D71E4F05E500AE3AB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		984013D81E4F05E500AE3AB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		984013DB1E4F05E600AE3AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		984013DD1E4F05E600AE3AB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		984013E01E4F05E600AE3AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		984013E21E4F05E600AE3AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		984013E81E4F066A00AE3AB7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		984013EA1E4F06E500AE3AB7 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		984013EF1E4F076000AE3AB7 /* yekan.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yekan.otf; sourceTree = "<group>"; };
+		984013F21E4F082200AE3AB7 /* DocumentDirectoy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentDirectoy.h; sourceTree = "<group>"; };
+		984013F31E4F082200AE3AB7 /* DocumentDirectoy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentDirectoy.m; sourceTree = "<group>"; };
+		984013F71E4F084A00AE3AB7 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		984013F81E4F084A00AE3AB7 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		984013FB1E4F086400AE3AB7 /* ImageResizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResizer.h; sourceTree = "<group>"; };
+		984013FC1E4F086400AE3AB7 /* ImageResizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageResizer.m; sourceTree = "<group>"; };
+		984013FF1E4F0A1500AE3AB7 /* ShakeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeAnimation.h; sourceTree = "<group>"; };
+		984014001E4F0A1500AE3AB7 /* ShakeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeAnimation.m; sourceTree = "<group>"; };
+		984014031E4F0A4600AE3AB7 /* AttributedTextClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedTextClass.h; sourceTree = "<group>"; };
+		984014041E4F0A4600AE3AB7 /* AttributedTextClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedTextClass.m; sourceTree = "<group>"; };
+		984014071E4F0A9400AE3AB7 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		984014081E4F0A9400AE3AB7 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		9840140B1E4F1F4400AE3AB7 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		9840140C1E4F1F4400AE3AB7 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		984014101E4F1F5E00AE3AB7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		984014121E4F206700AE3AB7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		984014131E4F206700AE3AB7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		984014161E4F208500AE3AB7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		984014171E4F208500AE3AB7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9840141A1E4F209A00AE3AB7 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		9840141B1E4F209A00AE3AB7 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		9840141F1E4F20B800AE3AB7 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		984014201E4F20B800AE3AB7 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		984014231E4F20CB00AE3AB7 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		984014241E4F20CB00AE3AB7 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		984EC2301E507BE000E8CD93 /* SecondViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewCell.h; sourceTree = "<group>"; };
+		984EC2311E507BE000E8CD93 /* SecondViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewCell.m; sourceTree = "<group>"; };
+		984EC2331E507C1B00E8CD93 /* SeconViewDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeconViewDataEntity.h; sourceTree = "<group>"; };
+		984EC2341E507C1B00E8CD93 /* SeconViewDataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeconViewDataEntity.m; sourceTree = "<group>"; };
+		984EC2361E507D7900E8CD93 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		984EC2371E507D7900E8CD93 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		986649C71E52E74C007701F7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		986649C81E52E74C007701F7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		986649CB1E52F4A0007701F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		986649D31E53185D007701F7 /* BehsaClinic-PatientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BehsaClinic-PatientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		986649D51E53185E007701F7 /* BehsaClinic_PatientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BehsaClinic_PatientUITests.m; sourceTree = "<group>"; };
+		986649D71E53185E007701F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		986649E11E535164007701F7 /* BehsaClinic-PatientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BehsaClinic-PatientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		986649E31E535165007701F7 /* BehsaClinic_PatientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BehsaClinic_PatientTests.m; sourceTree = "<group>"; };
+		986649E51E535165007701F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		986649EB1E5352F2007701F7 /* SimpleAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAlgorithms.h; sourceTree = "<group>"; };
+		986649EC1E5352F2007701F7 /* SimpleAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleAlgorithms.m; sourceTree = "<group>"; };
+		989D130A1E4F53D200605DFD /* BehsaClinic-Patient-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BehsaClinic-Patient-PrefixHeader.pch"; sourceTree = "<group>"; };
+		98DAFC141E4F35FB008D4298 /* Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
+		98DAFC151E4F35FB008D4298 /* NetworkStatusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkStatusManager.m; sourceTree = "<group>"; };
+		98DAFC161E4F35FB008D4298 /* Networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Networking.m; sourceTree = "<group>"; };
+		98DAFC171E4F35FB008D4298 /* NetworkStatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkStatusManager.h; sourceTree = "<group>"; };
+		98DAFC1A1E4F3604008D4298 /* NetworkEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkEntity.h; sourceTree = "<group>"; };
+		98DAFC1B1E4F3604008D4298 /* NetworkEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkEntity.m; sourceTree = "<group>"; };
+		98DAFC1E1E4F3B14008D4298 /* NetworkApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkApi.h; sourceTree = "<group>"; };
+		98DAFC211E4F476E008D4298 /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
+		98DAFC221E4F476E008D4298 /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
+		98DAFC251E4F4AFD008D4298 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		98DAFC261E4F4AFD008D4298 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F7F89E555ECEC35E9C21941E /* Pods-BehsaClinic-Patient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BehsaClinic-Patient.release.xcconfig"; path = "Pods/Target Support Files/Pods-BehsaClinic-Patient/Pods-BehsaClinic-Patient.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		984013CB1E4F05E500AE3AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984014111E4F1F5E00AE3AB7 /* libsqlite3.tbd in Frameworks */,
+				643F523B0EA7D600149364AE /* libPods-BehsaClinic-Patient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986649D01E53185D007701F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986649DE1E535164007701F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D531E1612D7795AFDACCEBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31945B44E8331BC950A72D93 /* Pods-BehsaClinic-Patient.debug.xcconfig */,
+				F7F89E555ECEC35E9C21941E /* Pods-BehsaClinic-Patient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9808D4601E547EC7008D3CB9 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				984EC2361E507D7900E8CD93 /* Common.h */,
+				984EC2371E507D7900E8CD93 /* Common.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		984013C51E4F05E500AE3AB7 = {
+			isa = PBXGroup;
+			children = (
+				984013E81E4F066A00AE3AB7 /* Podfile */,
+				984013D01E4F05E500AE3AB7 /* BehsaClinic-Patient */,
+				986649D41E53185E007701F7 /* BehsaClinic-PatientUITests */,
+				986649E21E535164007701F7 /* BehsaClinic-PatientTests */,
+				984013CF1E4F05E500AE3AB7 /* Products */,
+				9840140F1E4F1F5E00AE3AB7 /* Frameworks */,
+				1D531E1612D7795AFDACCEBB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		984013CF1E4F05E500AE3AB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				984013CE1E4F05E500AE3AB7 /* BehsaClinic-Patient.app */,
+				986649D31E53185D007701F7 /* BehsaClinic-PatientUITests.xctest */,
+				986649E11E535164007701F7 /* BehsaClinic-PatientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		984013D01E4F05E500AE3AB7 /* BehsaClinic-Patient */ = {
+			isa = PBXGroup;
+			children = (
+				984013EA1E4F06E500AE3AB7 /* Header.h */,
+				98DAFC2A1E4F4BAB008D4298 /* config */,
+				98DAFC1D1E4F361B008D4298 /* Network */,
+				9840140E1E4F1F4700AE3AB7 /* Database */,
+				984013F61E4F083100AE3AB7 /* helper */,
+				984013EB1E4F06EA00AE3AB7 /* AppDelegate */,
+				984013ED1E4F06FC00AE3AB7 /* view controller */,
+				984013EE1E4F071300AE3AB7 /* stroryboard */,
+				984013DD1E4F05E600AE3AB7 /* Assets.xcassets */,
+				984013DF1E4F05E600AE3AB7 /* LaunchScreen.storyboard */,
+				984013E21E4F05E600AE3AB7 /* Info.plist */,
+				984013D11E4F05E500AE3AB7 /* Supporting Files */,
+			);
+			path = "BehsaClinic-Patient";
+			sourceTree = "<group>";
+		};
+		984013D11E4F05E500AE3AB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				984013F11E4F076200AE3AB7 /* font */,
+				984013D21E4F05E500AE3AB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		984013EB1E4F06EA00AE3AB7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				984013D41E4F05E500AE3AB7 /* AppDelegate.h */,
+				984013D51E4F05E500AE3AB7 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		984013EC1E4F06F400AE3AB7 /* view controller */ = {
+			isa = PBXGroup;
+			children = (
+				984013D71E4F05E500AE3AB7 /* ViewController.h */,
+				984013D81E4F05E500AE3AB7 /* ViewController.m */,
+			);
+			name = "view controller";
+			sourceTree = "<group>";
+		};
+		984013ED1E4F06FC00AE3AB7 /* view controller */ = {
+			isa = PBXGroup;
+			children = (
+				984013EC1E4F06F400AE3AB7 /* view controller */,
+				984014151E4F207200AE3AB7 /* first tab */,
+				984014191E4F208800AE3AB7 /* second tab */,
+				9840141D1E4F209D00AE3AB7 /* third tab */,
+				984014221E4F20BB00AE3AB7 /* fourth tab */,
+				984014261E4F20CE00AE3AB7 /* fifth tab */,
+				98DAFC281E4F4B01008D4298 /* base viewcontroller */,
+				986649CA1E52E750007701F7 /* login */,
+			);
+			name = "view controller";
+			sourceTree = "<group>";
+		};
+		984013EE1E4F071300AE3AB7 /* stroryboard */ = {
+			isa = PBXGroup;
+			children = (
+				984013DA1E4F05E600AE3AB7 /* Main.storyboard */,
+			);
+			name = stroryboard;
+			sourceTree = "<group>";
+		};
+		984013F11E4F076200AE3AB7 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				984013EF1E4F076000AE3AB7 /* yekan.otf */,
+			);
+			name = font;
+			sourceTree = "<group>";
+		};
+		984013F51E4F082400AE3AB7 /* document directory */ = {
+			isa = PBXGroup;
+			children = (
+				984013F21E4F082200AE3AB7 /* DocumentDirectoy.h */,
+				984013F31E4F082200AE3AB7 /* DocumentDirectoy.m */,
+			);
+			name = "document directory";
+			sourceTree = "<group>";
+		};
+		984013F61E4F083100AE3AB7 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				9808D4601E547EC7008D3CB9 /* common */,
+				9840140A1E4F0A9700AE3AB7 /* custom button */,
+				984014061E4F0A4900AE3AB7 /* attributed text */,
+				984014021E4F0A1800AE3AB7 /* shake animate */,
+				984013FE1E4F086800AE3AB7 /* image resizer */,
+				984013FA1E4F084F00AE3AB7 /* progress HUD */,
+				984013F51E4F082400AE3AB7 /* document directory */,
+				98DAFC241E4F4772008D4298 /* toast view */,
+				986649EF1E535337007701F7 /* simpleAlgorithms */,
+			);
+			name = helper;
+			sourceTree = "<group>";
+		};
+		984013FA1E4F084F00AE3AB7 /* progress HUD */ = {
+			isa = PBXGroup;
+			children = (
+				984013F71E4F084A00AE3AB7 /* ProgressHUD.h */,
+				984013F81E4F084A00AE3AB7 /* ProgressHUD.m */,
+			);
+			name = "progress HUD";
+			sourceTree = "<group>";
+		};
+		984013FE1E4F086800AE3AB7 /* image resizer */ = {
+			isa = PBXGroup;
+			children = (
+				984013FB1E4F086400AE3AB7 /* ImageResizer.h */,
+				984013FC1E4F086400AE3AB7 /* ImageResizer.m */,
+			);
+			name = "image resizer";
+			sourceTree = "<group>";
+		};
+		984014021E4F0A1800AE3AB7 /* shake animate */ = {
+			isa = PBXGroup;
+			children = (
+				984013FF1E4F0A1500AE3AB7 /* ShakeAnimation.h */,
+				984014001E4F0A1500AE3AB7 /* ShakeAnimation.m */,
+			);
+			name = "shake animate";
+			sourceTree = "<group>";
+		};
+		984014061E4F0A4900AE3AB7 /* attributed text */ = {
+			isa = PBXGroup;
+			children = (
+				984014031E4F0A4600AE3AB7 /* AttributedTextClass.h */,
+				984014041E4F0A4600AE3AB7 /* AttributedTextClass.m */,
+			);
+			name = "attributed text";
+			sourceTree = "<group>";
+		};
+		9840140A1E4F0A9700AE3AB7 /* custom button */ = {
+			isa = PBXGroup;
+			children = (
+				984014071E4F0A9400AE3AB7 /* CustomButton.h */,
+				984014081E4F0A9400AE3AB7 /* CustomButton.m */,
+			);
+			name = "custom button";
+			sourceTree = "<group>";
+		};
+		9840140E1E4F1F4700AE3AB7 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				9840140B1E4F1F4400AE3AB7 /* Database.h */,
+				9840140C1E4F1F4400AE3AB7 /* Database.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		9840140F1E4F1F5E00AE3AB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				986649CB1E52F4A0007701F7 /* XCTest.framework */,
+				984014101E4F1F5E00AE3AB7 /* libsqlite3.tbd */,
+				8F71B8DDE7D43645FF988079 /* libPods-BehsaClinic-Patient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		984014151E4F207200AE3AB7 /* first tab */ = {
+			isa = PBXGroup;
+			children = (
+				984014121E4F206700AE3AB7 /* FirstViewController.h */,
+				984014131E4F206700AE3AB7 /* FirstViewController.m */,
+			);
+			name = "first tab";
+			sourceTree = "<group>";
+		};
+		984014191E4F208800AE3AB7 /* second tab */ = {
+			isa = PBXGroup;
+			children = (
+				984EC2301E507BE000E8CD93 /* SecondViewCell.h */,
+				984EC2311E507BE000E8CD93 /* SecondViewCell.m */,
+				984EC2331E507C1B00E8CD93 /* SeconViewDataEntity.h */,
+				984EC2341E507C1B00E8CD93 /* SeconViewDataEntity.m */,
+				984014161E4F208500AE3AB7 /* SecondViewController.h */,
+				984014171E4F208500AE3AB7 /* SecondViewController.m */,
+			);
+			name = "second tab";
+			sourceTree = "<group>";
+		};
+		9840141D1E4F209D00AE3AB7 /* third tab */ = {
+			isa = PBXGroup;
+			children = (
+				9840141A1E4F209A00AE3AB7 /* ThirdViewController.h */,
+				9840141B1E4F209A00AE3AB7 /* ThirdViewController.m */,
+			);
+			name = "third tab";
+			sourceTree = "<group>";
+		};
+		984014221E4F20BB00AE3AB7 /* fourth tab */ = {
+			isa = PBXGroup;
+			children = (
+				9840141F1E4F20B800AE3AB7 /* FourthViewController.h */,
+				984014201E4F20B800AE3AB7 /* FourthViewController.m */,
+			);
+			name = "fourth tab";
+			sourceTree = "<group>";
+		};
+		984014261E4F20CE00AE3AB7 /* fifth tab */ = {
+			isa = PBXGroup;
+			children = (
+				984014231E4F20CB00AE3AB7 /* FifthViewController.h */,
+				984014241E4F20CB00AE3AB7 /* FifthViewController.m */,
+			);
+			name = "fifth tab";
+			sourceTree = "<group>";
+		};
+		986649CA1E52E750007701F7 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				986649C71E52E74C007701F7 /* LoginViewController.h */,
+				986649C81E52E74C007701F7 /* LoginViewController.m */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		986649D41E53185E007701F7 /* BehsaClinic-PatientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				986649D51E53185E007701F7 /* BehsaClinic_PatientUITests.m */,
+				986649D71E53185E007701F7 /* Info.plist */,
+			);
+			path = "BehsaClinic-PatientUITests";
+			sourceTree = "<group>";
+		};
+		986649E21E535164007701F7 /* BehsaClinic-PatientTests */ = {
+			isa = PBXGroup;
+			children = (
+				986649E31E535165007701F7 /* BehsaClinic_PatientTests.m */,
+				986649E51E535165007701F7 /* Info.plist */,
+			);
+			path = "BehsaClinic-PatientTests";
+			sourceTree = "<group>";
+		};
+		986649EF1E535337007701F7 /* simpleAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				986649EB1E5352F2007701F7 /* SimpleAlgorithms.h */,
+				986649EC1E5352F2007701F7 /* SimpleAlgorithms.m */,
+			);
+			name = simpleAlgorithms;
+			sourceTree = "<group>";
+		};
+		98DAFC1D1E4F361B008D4298 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				98DAFC1E1E4F3B14008D4298 /* NetworkApi.h */,
+				98DAFC141E4F35FB008D4298 /* Networking.h */,
+				98DAFC161E4F35FB008D4298 /* Networking.m */,
+				98DAFC1A1E4F3604008D4298 /* NetworkEntity.h */,
+				98DAFC1B1E4F3604008D4298 /* NetworkEntity.m */,
+				98DAFC171E4F35FB008D4298 /* NetworkStatusManager.h */,
+				98DAFC151E4F35FB008D4298 /* NetworkStatusManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		98DAFC241E4F4772008D4298 /* toast view */ = {
+			isa = PBXGroup;
+			children = (
+				98DAFC211E4F476E008D4298 /* ToastView.h */,
+				98DAFC221E4F476E008D4298 /* ToastView.m */,
+			);
+			name = "toast view";
+			sourceTree = "<group>";
+		};
+		98DAFC281E4F4B01008D4298 /* base viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				98DAFC251E4F4AFD008D4298 /* BaseViewController.h */,
+				98DAFC261E4F4AFD008D4298 /* BaseViewController.m */,
+			);
+			name = "base viewcontroller";
+			sourceTree = "<group>";
+		};
+		98DAFC2A1E4F4BAB008D4298 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				989D130A1E4F53D200605DFD /* BehsaClinic-Patient-PrefixHeader.pch */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		984013CD1E4F05E500AE3AB7 /* BehsaClinic-Patient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 984013E51E4F05E600AE3AB7 /* Build configuration list for PBXNativeTarget "BehsaClinic-Patient" */;
+			buildPhases = (
+				B06469267941B06C8FDC1AA1 /* [CP] Check Pods Manifest.lock */,
+				984013CA1E4F05E500AE3AB7 /* Sources */,
+				984013CB1E4F05E500AE3AB7 /* Frameworks */,
+				984013CC1E4F05E500AE3AB7 /* Resources */,
+				1DE4F7DA66F25E327B499D9D /* [CP] Embed Pods Frameworks */,
+				A6184A47B069C1298D8943CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BehsaClinic-Patient";
+			productName = "BehsaClinic-Patient";
+			productReference = 984013CE1E4F05E500AE3AB7 /* BehsaClinic-Patient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		986649D21E53185D007701F7 /* BehsaClinic-PatientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986649DA1E53185E007701F7 /* Build configuration list for PBXNativeTarget "BehsaClinic-PatientUITests" */;
+			buildPhases = (
+				986649CF1E53185D007701F7 /* Sources */,
+				986649D01E53185D007701F7 /* Frameworks */,
+				986649D11E53185D007701F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				986649D91E53185E007701F7 /* PBXTargetDependency */,
+			);
+			name = "BehsaClinic-PatientUITests";
+			productName = "BehsaClinic-PatientUITests";
+			productReference = 986649D31E53185D007701F7 /* BehsaClinic-PatientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		986649E01E535164007701F7 /* BehsaClinic-PatientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986649E81E535165007701F7 /* Build configuration list for PBXNativeTarget "BehsaClinic-PatientTests" */;
+			buildPhases = (
+				986649DD1E535164007701F7 /* Sources */,
+				986649DE1E535164007701F7 /* Frameworks */,
+				986649DF1E535164007701F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				986649E71E535165007701F7 /* PBXTargetDependency */,
+			);
+			name = "BehsaClinic-PatientTests";
+			productName = "BehsaClinic-PatientTests";
+			productReference = 986649E11E535164007701F7 /* BehsaClinic-PatientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		984013C61E4F05E500AE3AB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Arash Z. Jahangiri";
+				TargetAttributes = {
+					984013CD1E4F05E500AE3AB7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LUH6R22Y9V;
+						ProvisioningStyle = Automatic;
+					};
+					986649D21E53185D007701F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LUH6R22Y9V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 984013CD1E4F05E500AE3AB7;
+					};
+					986649E01E535164007701F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LUH6R22Y9V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 984013CD1E4F05E500AE3AB7;
+					};
+				};
+			};
+			buildConfigurationList = 984013C91E4F05E500AE3AB7 /* Build configuration list for PBXProject "BehsaClinic-Patient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 984013C51E4F05E500AE3AB7;
+			productRefGroup = 984013CF1E4F05E500AE3AB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				984013CD1E4F05E500AE3AB7 /* BehsaClinic-Patient */,
+				986649D21E53185D007701F7 /* BehsaClinic-PatientUITests */,
+				986649E01E535164007701F7 /* BehsaClinic-PatientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		984013CC1E4F05E500AE3AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984013E11E4F05E600AE3AB7 /* LaunchScreen.storyboard in Resources */,
+				984013F01E4F076000AE3AB7 /* yekan.otf in Resources */,
+				984013DE1E4F05E600AE3AB7 /* Assets.xcassets in Resources */,
+				984013E91E4F066A00AE3AB7 /* Podfile in Resources */,
+				984013DC1E4F05E600AE3AB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986649D11E53185D007701F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986649DF1E535164007701F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DE4F7DA66F25E327B499D9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BehsaClinic-Patient/Pods-BehsaClinic-Patient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6184A47B069C1298D8943CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BehsaClinic-Patient/Pods-BehsaClinic-Patient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B06469267941B06C8FDC1AA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		984013CA1E4F05E500AE3AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DAFC181E4F35FB008D4298 /* NetworkStatusManager.m in Sources */,
+				98DAFC271E4F4AFD008D4298 /* BaseViewController.m in Sources */,
+				98DAFC191E4F35FB008D4298 /* Networking.m in Sources */,
+				984014181E4F208500AE3AB7 /* SecondViewController.m in Sources */,
+				986649C91E52E74C007701F7 /* LoginViewController.m in Sources */,
+				9840141C1E4F209A00AE3AB7 /* ThirdViewController.m in Sources */,
+				984014141E4F206700AE3AB7 /* FirstViewController.m in Sources */,
+				98DAFC231E4F476E008D4298 /* ToastView.m in Sources */,
+				98DAFC1C1E4F3604008D4298 /* NetworkEntity.m in Sources */,
+				984014251E4F20CB00AE3AB7 /* FifthViewController.m in Sources */,
+				984013FD1E4F086400AE3AB7 /* ImageResizer.m in Sources */,
+				984EC2381E507D7900E8CD93 /* Common.m in Sources */,
+				984013D91E4F05E500AE3AB7 /* ViewController.m in Sources */,
+				984013D61E4F05E500AE3AB7 /* AppDelegate.m in Sources */,
+				984014091E4F0A9400AE3AB7 /* CustomButton.m in Sources */,
+				984014051E4F0A4600AE3AB7 /* AttributedTextClass.m in Sources */,
+				984013F91E4F084A00AE3AB7 /* ProgressHUD.m in Sources */,
+				984EC2351E507C1B00E8CD93 /* SeconViewDataEntity.m in Sources */,
+				9840140D1E4F1F4400AE3AB7 /* Database.m in Sources */,
+				984013D31E4F05E500AE3AB7 /* main.m in Sources */,
+				984EC2321E507BE000E8CD93 /* SecondViewCell.m in Sources */,
+				984014011E4F0A1500AE3AB7 /* ShakeAnimation.m in Sources */,
+				984014211E4F20B800AE3AB7 /* FourthViewController.m in Sources */,
+				984013F41E4F082200AE3AB7 /* DocumentDirectoy.m in Sources */,
+				986649ED1E5352F2007701F7 /* SimpleAlgorithms.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986649CF1E53185D007701F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986649D61E53185E007701F7 /* BehsaClinic_PatientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986649DD1E535164007701F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986649E41E535165007701F7 /* BehsaClinic_PatientTests.m in Sources */,
+				986649EE1E5352F2007701F7 /* SimpleAlgorithms.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		986649D91E53185E007701F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 984013CD1E4F05E500AE3AB7 /* BehsaClinic-Patient */;
+			targetProxy = 986649D81E53185E007701F7 /* PBXContainerItemProxy */;
+		};
+		986649E71E535165007701F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 984013CD1E4F05E500AE3AB7 /* BehsaClinic-Patient */;
+			targetProxy = 986649E61E535165007701F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		984013DA1E4F05E600AE3AB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				984013DB1E4F05E600AE3AB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		984013DF1E4F05E600AE3AB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				984013E01E4F05E600AE3AB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		984013E31E4F05E600AE3AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		984013E41E4F05E600AE3AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		984013E61E4F05E600AE3AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31945B44E8331BC950A72D93 /* Pods-BehsaClinic-Patient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LUH6R22Y9V;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/BehsaClinic-Patient-PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				INFOPLIST_FILE = "BehsaClinic-Patient/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.yarima.BehsaClinicDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		984013E71E4F05E600AE3AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F89E555ECEC35E9C21941E /* Pods-BehsaClinic-Patient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LUH6R22Y9V;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/BehsaClinic-Patient-PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				INFOPLIST_FILE = "BehsaClinic-Patient/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.yarima.BehsaClinicDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		986649DB1E53185E007701F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LUH6R22Y9V;
+				INFOPLIST_FILE = "BehsaClinic-PatientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.yarima.BehsaClinicPatient.BehsaClinic-PatientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BehsaClinic-Patient";
+			};
+			name = Debug;
+		};
+		986649DC1E53185E007701F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LUH6R22Y9V;
+				INFOPLIST_FILE = "BehsaClinic-PatientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.yarima.BehsaClinicPatient.BehsaClinic-PatientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BehsaClinic-Patient";
+			};
+			name = Release;
+		};
+		986649E91E535165007701F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LUH6R22Y9V;
+				INFOPLIST_FILE = "BehsaClinic-PatientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.yarima.BehsaClinicPatient.BehsaClinic-PatientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BehsaClinic-Patient.app/BehsaClinic-Patient";
+			};
+			name = Debug;
+		};
+		986649EA1E535165007701F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LUH6R22Y9V;
+				INFOPLIST_FILE = "BehsaClinic-PatientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.yarima.BehsaClinicPatient.BehsaClinic-PatientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BehsaClinic-Patient.app/BehsaClinic-Patient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		984013C91E4F05E500AE3AB7 /* Build configuration list for PBXProject "BehsaClinic-Patient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984013E31E4F05E600AE3AB7 /* Debug */,
+				984013E41E4F05E600AE3AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		984013E51E4F05E600AE3AB7 /* Build configuration list for PBXNativeTarget "BehsaClinic-Patient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984013E61E4F05E600AE3AB7 /* Debug */,
+				984013E71E4F05E600AE3AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986649DA1E53185E007701F7 /* Build configuration list for PBXNativeTarget "BehsaClinic-PatientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986649DB1E53185E007701F7 /* Debug */,
+				986649DC1E53185E007701F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986649E81E535165007701F7 /* Build configuration list for PBXNativeTarget "BehsaClinic-PatientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986649E91E535165007701F7 /* Debug */,
+				986649EA1E535165007701F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 984013C61E4F05E500AE3AB7 /* Project object */;
+}
