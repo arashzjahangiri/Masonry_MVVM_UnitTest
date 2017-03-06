@@ -40,7 +40,7 @@
     
     for (int i = 0; i < 20; i++) {
         SeconViewDataEntity *dataEntity = [SeconViewDataEntity new];
-        dataEntity.content = [Common getText:@"This app uses Masonry, MVVM, Database, unit test, UItest--" withRepeat:i + 2];
+        dataEntity.content = [Common getText:@"This app uses Masonry, MVVM, unit test, UItest--" withRepeat:i + 2];
         [tmpData addObject:dataEntity];
     }
     _tableArray = tmpData;

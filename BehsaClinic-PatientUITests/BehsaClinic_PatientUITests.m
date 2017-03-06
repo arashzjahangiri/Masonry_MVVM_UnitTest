@@ -36,7 +36,7 @@
     [XCUIDevice sharedDevice].orientation = UIDeviceOrientationPortrait;
     
     XCUIApplication *app = [[XCUIApplication alloc] init];
-    XCUIElement *button = app.buttons[@"ورود"];
+    XCUIElement *button = app.buttons[@"Login"];
     [button tap];
     
     XCUIElement *element = [[[[app childrenMatchingType:XCUIElementTypeWindow] elementBoundByIndex:0] childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element;
@@ -68,7 +68,7 @@
     [textField2 typeText:@"12345"];
     //[returnButton tap];
     
-    XCUIElement *button = app.buttons[@"ورود"];
+    XCUIElement *button = app.buttons[@"Login"];
     XCTAssertTrue(button.enabled);
 }
 
@@ -89,7 +89,7 @@
     [textField2 typeText:@"12"];
     //[returnButton tap];
     
-    XCUIElement *button = app.buttons[@"ورود"];
+    XCUIElement *button = app.buttons[@"Login"];
     XCTAssertFalse(button.enabled);
 }
 
