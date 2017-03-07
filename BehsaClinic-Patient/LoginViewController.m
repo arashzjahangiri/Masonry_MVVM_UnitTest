@@ -100,8 +100,9 @@
 
 - (void)submitButtonAction{
     NSLog(@"clicked");
-    UIView *alert2 = [ToastView message:[NSString stringWithFormat:@"%@\n%@", self.usernameTextField.text, self.passwordTextField.text]];
-    [self.view addSubview:alert2];
+    [[AZJAlertView sharedInstance]showMessage:
+     [NSString stringWithFormat:@"%@\n%@", _usernameTextField.text, _passwordTextField.text]
+                                     withType:AZJAlertMessageTypeInfo];
     [self performSelector:@selector(dismissThisView) withObject:nil afterDelay:3.0];
 }
 

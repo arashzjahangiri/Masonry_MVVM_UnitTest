@@ -20,7 +20,7 @@
 #import <UIImageView+AFNetworking.h>
 #import "ProgressHUD.h"
 
-#import "ToastView.h"
+#import "AZJAlertView.h"
 
 #import "BaseViewController.h"
 

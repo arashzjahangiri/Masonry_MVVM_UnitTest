@@ -29,6 +29,7 @@
 		9840141C1E4F209A00AE3AB7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9840141B1E4F209A00AE3AB7 /* ThirdViewController.m */; };
 		984014211E4F20B800AE3AB7 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984014201E4F20B800AE3AB7 /* FourthViewController.m */; };
 		984014251E4F20CB00AE3AB7 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984014241E4F20CB00AE3AB7 /* FifthViewController.m */; };
+		984023E51E6F083800331EF9 /* AZJAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 984023E31E6F083800331EF9 /* AZJAlertView.m */; };
 		984EC2321E507BE000E8CD93 /* SecondViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 984EC2311E507BE000E8CD93 /* SecondViewCell.m */; };
 		984EC2351E507C1B00E8CD93 /* SeconViewDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 984EC2341E507C1B00E8CD93 /* SeconViewDataEntity.m */; };
 		984EC2381E507D7900E8CD93 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 984EC2371E507D7900E8CD93 /* Common.m */; };
@@ -40,7 +41,6 @@
 		98DAFC181E4F35FB008D4298 /* NetworkStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DAFC151E4F35FB008D4298 /* NetworkStatusManager.m */; };
 		98DAFC191E4F35FB008D4298 /* Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DAFC161E4F35FB008D4298 /* Networking.m */; };
 		98DAFC1C1E4F3604008D4298 /* NetworkEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DAFC1B1E4F3604008D4298 /* NetworkEntity.m */; };
-		98DAFC231E4F476E008D4298 /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DAFC221E4F476E008D4298 /* ToastView.m */; };
 		98DAFC271E4F4AFD008D4298 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DAFC261E4F4AFD008D4298 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +102,8 @@
 		984014201E4F20B800AE3AB7 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		984014231E4F20CB00AE3AB7 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
 		984014241E4F20CB00AE3AB7 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		984023E31E6F083800331EF9 /* AZJAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZJAlertView.m; sourceTree = "<group>"; };
+		984023E41E6F083800331EF9 /* AZJAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZJAlertView.h; sourceTree = "<group>"; };
 		984EC2301E507BE000E8CD93 /* SecondViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewCell.h; sourceTree = "<group>"; };
 		984EC2311E507BE000E8CD93 /* SecondViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewCell.m; sourceTree = "<group>"; };
 		984EC2331E507C1B00E8CD93 /* SeconViewDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeconViewDataEntity.h; sourceTree = "<group>"; };
@@ -127,8 +129,6 @@
 		98DAFC1A1E4F3604008D4298 /* NetworkEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkEntity.h; sourceTree = "<group>"; };
 		98DAFC1B1E4F3604008D4298 /* NetworkEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkEntity.m; sourceTree = "<group>"; };
 		98DAFC1E1E4F3B14008D4298 /* NetworkApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkApi.h; sourceTree = "<group>"; };
-		98DAFC211E4F476E008D4298 /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
-		98DAFC221E4F476E008D4298 /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
 		98DAFC251E4F4AFD008D4298 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		98DAFC261E4F4AFD008D4298 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		F7F89E555ECEC35E9C21941E /* Pods-BehsaClinic-Patient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BehsaClinic-Patient.release.xcconfig"; path = "Pods/Target Support Files/Pods-BehsaClinic-Patient/Pods-BehsaClinic-Patient.release.xcconfig"; sourceTree = "<group>"; };
@@ -291,6 +291,7 @@
 		984013F61E4F083100AE3AB7 /* helper */ = {
 			isa = PBXGroup;
 			children = (
+				984023E61E6F083B00331EF9 /* alert view */,
 				9808D4601E547EC7008D3CB9 /* common */,
 				9840140A1E4F0A9700AE3AB7 /* custom button */,
 				984014061E4F0A4900AE3AB7 /* attributed text */,
@@ -298,7 +299,6 @@
 				984013FE1E4F086800AE3AB7 /* image resizer */,
 				984013FA1E4F084F00AE3AB7 /* progress HUD */,
 				984013F51E4F082400AE3AB7 /* document directory */,
-				98DAFC241E4F4772008D4298 /* toast view */,
 				986649EF1E535337007701F7 /* simpleAlgorithms */,
 			);
 			name = helper;
@@ -417,6 +417,15 @@
 			name = "fifth tab";
 			sourceTree = "<group>";
 		};
+		984023E61E6F083B00331EF9 /* alert view */ = {
+			isa = PBXGroup;
+			children = (
+				984023E31E6F083800331EF9 /* AZJAlertView.m */,
+				984023E41E6F083800331EF9 /* AZJAlertView.h */,
+			);
+			name = "alert view";
+			sourceTree = "<group>";
+		};
 		986649CA1E52E750007701F7 /* login */ = {
 			isa = PBXGroup;
 			children = (
@@ -465,15 +474,6 @@
 				98DAFC151E4F35FB008D4298 /* NetworkStatusManager.m */,
 			);
 			name = Network;
-			sourceTree = "<group>";
-		};
-		98DAFC241E4F4772008D4298 /* toast view */ = {
-			isa = PBXGroup;
-			children = (
-				98DAFC211E4F476E008D4298 /* ToastView.h */,
-				98DAFC221E4F476E008D4298 /* ToastView.m */,
-			);
-			name = "toast view";
 			sourceTree = "<group>";
 		};
 		98DAFC281E4F4B01008D4298 /* base viewcontroller */ = {
@@ -689,7 +689,6 @@
 				986649C91E52E74C007701F7 /* LoginViewController.m in Sources */,
 				9840141C1E4F209A00AE3AB7 /* ThirdViewController.m in Sources */,
 				984014141E4F206700AE3AB7 /* FirstViewController.m in Sources */,
-				98DAFC231E4F476E008D4298 /* ToastView.m in Sources */,
 				98DAFC1C1E4F3604008D4298 /* NetworkEntity.m in Sources */,
 				984014251E4F20CB00AE3AB7 /* FifthViewController.m in Sources */,
 				984013FD1E4F086400AE3AB7 /* ImageResizer.m in Sources */,
@@ -701,6 +700,7 @@
 				984013F91E4F084A00AE3AB7 /* ProgressHUD.m in Sources */,
 				984EC2351E507C1B00E8CD93 /* SeconViewDataEntity.m in Sources */,
 				9840140D1E4F1F4400AE3AB7 /* Database.m in Sources */,
+				984023E51E6F083800331EF9 /* AZJAlertView.m in Sources */,
 				984013D31E4F05E500AE3AB7 /* main.m in Sources */,
 				984EC2321E507BE000E8CD93 /* SecondViewCell.m in Sources */,
 				984014011E4F0A1500AE3AB7 /* ShakeAnimation.m in Sources */,
