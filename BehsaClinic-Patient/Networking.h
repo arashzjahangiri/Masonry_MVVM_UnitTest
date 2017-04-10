@@ -51,7 +51,7 @@ typedef void(^NetworkingCallBackBlock)(void);
                failure:(NetworkingFailureBlock)failureBlock
               callBack:(NetworkingCallBackBlock)callBackBlock;
 
-/* 头像 */
+/* upload file */
 + (void)uploadImageWithPath:(NSString *)path
                  parameters:(NSDictionary *)parameters
                       image:(UIImage *)image
